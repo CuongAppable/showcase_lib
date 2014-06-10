@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/showcase">
+    
+    <TextView
+	    android:id="@id/showcase_descript"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center_horizontal"
+	    android:textColor="@android:color/white"
+	    android:layout_above="@id/showcase_button"/>
+    
+    <Button
+        style="@style/ShowcaseButton"
+	    android:text="@string/ok"
+	    android:id="@id/showcase_button"
+	    android:layout_marginTop="10dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"/>
+</RelativeLayout>
